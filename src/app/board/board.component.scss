@@ -1,0 +1,46 @@
+.board-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.game-title {
+  font-size: 3rem;
+  line-height: 50px;
+  color: #00bd79;
+
+  span {
+    color: #6007d4;
+
+  }
+}
+
+.game-btn {
+  border: 1px solid rgba(170, 195, 255, 0.88);
+  border-radius: 2px;
+
+  height: 50px;
+
+  box-sizing: border-box;
+  background: transparent;
+
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: rgba(170, 195, 255, 0.88);
+}
+
+
+.board-plate {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-gap: 2px;
+}
+
+app-square {
+  border: 1px solid darkcyan;
+  border-radius: 2px;
+  height: 250px;
+}
+
